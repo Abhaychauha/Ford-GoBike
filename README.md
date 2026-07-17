@@ -5,8 +5,6 @@ covering all 12 months of 2018. The project merges 12 monthly datasets, cleans a
 features, and explores what drives trip duration and ridership patterns — with a focus on **user
 type (Subscriber vs. Customer)** and **seasonality**.
 
-![Trip Duration Distribution](assets/trip_duration_distribution.png)
-
 ---
 
 ## 📋 Table of Contents
@@ -19,7 +17,6 @@ type (Subscriber vs. Customer)** and **seasonality**.
 - [Analysis Approach](#-analysis-approach)
 - [Key Findings](#-key-findings)
 - [Business Recommendations](#-business-recommendations)
-- [Sample Visualizations](#-sample-visualizations)
 - [Tools & Libraries](#-tools--libraries)
 - [Author](#-author)
 - [License](#-license)
@@ -81,7 +78,6 @@ grow ridership and revenue.
 ├── FordGoBike_2018_EDA.ipynb        # Main analysis notebook (merge, wrangle, EDA, insights)
 ├── 201801-fordgobike-tripdata.csv   # Monthly raw data files (Jan–Dec 2018)
 ├── ...                              # (201802 ... 201812)
-├── assets/                          # Exported chart images used in this README
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project documentation (this file)
 ```
@@ -159,17 +155,6 @@ cleans the data, and generates all 21 charts with commentary.
 5. Invest capacity at **top transit-hub stations** driving the highest trip volume.
 6. Explore marketing/safety initiatives to grow the **female ridership segment**, a large
    under-tapped audience.
-
-## 🖼 Sample Visualizations
-
-| | |
-|---|---|
-| ![User Type Distribution](assets/user_type_distribution.png) | ![Trips by Hour](assets/trips_by_hour.png) |
-| ![Duration by User Type](assets/duration_by_user_type.png) | ![Duration by Season and User Type](assets/duration_by_season_and_user_type.png) |
-
-![Ride Volume Heatmap](assets/ride_heatmap_hour_day.png)
-
-*(See the notebook for the full set of 21 charts and accompanying insights.)*
 
 ## 🛠 Tools & Libraries
 
